@@ -132,6 +132,7 @@ footer {
 .projects-content {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 3rem;
   margin-top: 3rem;
   padding-bottom: 3rem;
@@ -166,6 +167,31 @@ footer {
   height: 200px;
   width: 300px;
   border-radius: 10px;
+}
+
+.btn-project button {
+  height: 40px;
+  width: 120px;
+  font-family: var(--fonte-Roboto);
+  font-size: 1rem;
+  color: var(--color-white);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.7s;
+  background-color: var(--bgd-color-secondary);
+}
+
+.btn-project button:hover {
+  color: var(--color-verde);
+}
+
+.btn-project a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
 }
 
 .footer-container {
