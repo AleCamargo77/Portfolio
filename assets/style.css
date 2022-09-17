@@ -212,3 +212,6 @@ footer {
   font-family: var(--fonte-Roboto);
   margin-bottom: 2rem;
 }
+
+@media (max-width: 1150px) {
+}
