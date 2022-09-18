@@ -246,16 +246,19 @@ footer {
 
 @media (max-width: 480px) {
   .start-text h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   .footer-text p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 }
 
 @media (max-width: 380px) {
   .start-text h1 {
     font-size: 1.6rem;
+  }
+  .footer-text p {
+    font-size: 1.4rem;
   }
 }
 
