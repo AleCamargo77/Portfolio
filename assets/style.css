@@ -8,7 +8,7 @@
 
 :root {
   --fonte-Roboto: "Roboto", sans-serif;
-  --color-verde: rgb(3, 152, 158);
+  --color-green: rgb(3, 152, 158);
   --color-white: #fff;
   --bgd-color-primary: #272727;
   --bgd-color-secondary: #121212;
@@ -41,7 +41,7 @@ ul a {
 }
 
 ul a:hover {
-  color: var(--color-verde);
+  color: var(--color-green);
 }
 
 #start {
@@ -71,7 +71,7 @@ ul a:hover {
 }
 
 .start-text span {
-  color: var(--color-verde);
+  color: var(--color-green);
 }
 
 .btn-cutticulo button {
@@ -89,7 +89,7 @@ ul a:hover {
 }
 
 .btn-cutticulo button:hover {
-  color: var(--color-verde);
+  color: var(--color-green);
 }
 
 .about-text h1 {
@@ -121,7 +121,6 @@ ul a:hover {
 
 html {
   font-size: 62.5%;
-  /* scroll-behavior: smooth; */
 }
 
 section,
@@ -167,7 +166,7 @@ footer {
 }
 
 .btn-project button:hover {
-  color: var(--color-verde);
+  color: var(--color-green);
 }
 
 .btn-project a {
@@ -196,6 +195,10 @@ footer {
   font-size: 1.8rem;
   font-family: var(--fonte-Roboto);
   margin-bottom: 2rem;
+}
+
+.footer-text span {
+  color: var(--color-green);
 }
 
 @media (max-width: 1150px) {
