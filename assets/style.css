@@ -223,8 +223,12 @@ footer {
 
 @media (max-width: 650px) {
   .projects-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+  }
+  .project-image {
+    margin-right: 0rem;
   }
   .project-paragraph {
     margin-bottom: 5rem;
