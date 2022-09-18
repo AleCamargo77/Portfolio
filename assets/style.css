@@ -224,12 +224,19 @@ footer {
 @media (max-width: 650px) {
   .projects-content {
     display: block;
+    text-align: center;
   }
   .project-paragraph {
     margin-bottom: 5rem;
   }
+  #projects h1 {
+    text-align: center;
+  }
   .start-text h1 {
     font-size: 24px;
+  }
+  .about-text {
+    text-align: center;
   }
 }
 
