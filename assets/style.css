@@ -70,8 +70,16 @@ ul a:hover {
   font-weight: 900;
 }
 
-.start-text span {
+.start-text a {
   color: var(--color-green);
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+.start-text a:hover {
+  opacity: 1;
 }
 
 .btn-cutticulo button {
